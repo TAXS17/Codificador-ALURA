@@ -1,0 +1,109 @@
+
+body {
+    display: flex;
+    background: white;
+    margin: 10px;
+    padding: 20px;
+
+}
+
+#TODO{
+    display: block;
+    background-image: url(Desktop-1/encriptado.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 825px;
+    
+
+
+}
+
+
+#logo{
+    background-color:white;
+    border-radius: 100%;
+    margin: 20px;
+    padding: 10px;
+    width: 120px;
+    height: 50px;
+
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.input-text{
+    position: relative;
+    left: 20px;
+    width: 464px;
+    height: 73px;
+    font-size: medium;
+    border-radius: 10px;
+    
+}
+
+h6{
+    font-size: medium;
+    color: white;
+    position: absolute;
+    left: 50px;
+}
+
+#fondo-botones{
+    display: flex;
+    justify-content:space-between;
+    margin: 10px;
+    position: absolute;
+    bottom: 100px;
+    width: 300px;
+}
+
+
+.encriptar:hover{
+    background: #D8DFE8;
+}
+.encriptar{
+  width: 40%;
+  padding: 15px 0; 
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background: #0A3871;
+   
+ }
+
+.desencriptar:hover{
+    background: #0A3871;
+}
+
+.desencriptar{
+    width: 40%;
+    padding: 15px 0;
+    left: auto;
+}
+
+.input-text-area{
+    position: absolute;
+    position: absolute;
+    left: 544px;
+    top: 60px;
+    width: 296px;
+    height: 533px;
+}
+
+.copy{
+    position: absolute;
+    left: 415px;
+    bottom: 124px;
+    width: 95px;
+    height: 44px;
+}
+
+.copy:hover{
+    background: #0A3871;
+}
+
